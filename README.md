@@ -2,6 +2,6 @@
 for my friends
 
 # stuff
-remember: change the cd location inside the code to the desired mindustry version file else it will execute on the current location its in
+do not put a '\' in the end of a file 
 
 - by biel (crisbiel1979) or The real ??? on mindustry
