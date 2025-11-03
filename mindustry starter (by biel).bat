@@ -17,7 +17,7 @@ if not exist "%local%" (
 	goto local
 )
 timeout /t 1 /nobreak >nul
-if exist "%local%" echo yep, everything seems fine here
+if exist "%local%" ( echo yep, everything seems fine here
 	timeout /t 1 /nobreak >nul
 	start cmd /k "echo %local% > mindustrystarterlocal.txt & timeout /t 1 /nobreak >nul & exit"
 )
